@@ -1,3 +1,13 @@
+echo "# Django-React-Sample" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:csharp1791/Django-React-Sample.git
+git push -u origin main
+
+--------------------------------
+
 python3 -m venv DjRT.env
 
 source DjRT.env/bin/activate
