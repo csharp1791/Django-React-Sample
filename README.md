@@ -1,3 +1,5 @@
+npm install -g npm@10.8.1
+-------------------------------
 echo "# Django-React-Sample" >> README.md
 git init
 git add README.md
@@ -28,3 +30,10 @@ python3 manage.py migrate
 
 python3 manage.py runserver
 
+------------------------
+------------------------
+frontend:
+
+cd frontend
+npm install
+npm run dev
